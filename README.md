@@ -21,7 +21,7 @@ Packed with a range of versatile functionalities, this bot offers a convenient a
 
 
 
-#### How to run web-scraper with a certain frequency?
+#### How to run the web-scraper with a certain frequency?
 To run the web-scraping script regularly, I utilized systemd. I created 2 files: .service and .timer
 * File with .service extension defines path to executable file, python3, output for standard logs and errors
 * File with .timer extension schedules the .service file every 3 minutes 24/7. Of course, you can adjust the frequency to 5, 10 or 30 minutes as per your requirements.
