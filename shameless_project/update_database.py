@@ -94,8 +94,7 @@ async def update_database(shifts, loop):
         # checking for new shifts
         if not result:
             # add shift to the main database (shifts)
-            await execute_sql(conn, insert_shift_sql, shift)
-            #print(f'The shift [{shift[0]}] has been added - {dt.now()}')
+            await execute_sql(conn, insert_shift_sql, shift)            
             # add shift to the second database (recent_shifts) for sending
             await execute_sql(conn, insert_recent_shifts_db_sql, shift)
         # checking for changing of the capacity for the same shifts
@@ -104,9 +103,6 @@ async def update_database(shifts, loop):
                 list_result = list(result[0])
                 if list_result[5] != shift[5]:
                     await execute_sql(conn, update_capacity_sql, (shift[5],) + tuple(shift[0:5]))
-                    #print(f"The capacity for [{shift[0]}] has been changed - {dt.now()}")
-            #else:
-                #print(f'The shift [{shift[0]}] is already in the db - {dt.now()}')
 
     # get current shifts in the database
     shifts_in_database = await fetch_sql(conn, select_all_shifts_sql)
@@ -125,7 +121,6 @@ async def update_database(shifts, loop):
     ]
     for shift in shifts_to_delete:
         await execute_sql(conn, delete_shift_sql, shift)
-        #print(f'The shift [{shift[0]}] has been deleted - {dt.now()}')
 
     print('script was executed')
 
