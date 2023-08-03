@@ -18,3 +18,7 @@ Packed with a range of versatile functionalities, this bot offers a convenient a
   * date or interval of dates
   * working position
   * size of shifts
+
+
+Innovate, Create, Automate
+rastr-0
