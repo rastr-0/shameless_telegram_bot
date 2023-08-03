@@ -20,5 +20,5 @@ Packed with a range of versatile functionalities, this bot offers a convenient a
   * size of shifts
 
                 
-                                                                                                                          Innovate, Create, Automate  
-                                                                                                                          rastr-0  
+Innovate, Create, Automate  
+rastr-0  
