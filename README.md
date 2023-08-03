@@ -11,7 +11,7 @@ Packed with a range of versatile functionalities, this bot offers a convenient a
 
 * Shift Catalog: 
   Browse and explore all available shifts on the website effortlessly.
-  The bot provides a comprehensive list, giving you a clear overview of all available shifts
+  The bot provides a comprehensive list, giving you a clear overview of all available shifts.
 * Customized Shift Selection:
   Tailor your search with specific criteria to find shifts that match your preferences.
   For now the following criteria are available:
@@ -20,5 +20,5 @@ Packed with a range of versatile functionalities, this bot offers a convenient a
   * size of shifts
 
 
-Innovate, Create, Automate
-rastr-0
+Innovate, Create, Automate.
+rastr-0.
