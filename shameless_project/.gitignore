@@ -1,0 +1,6 @@
+.env
+LICENSE.chromedriver 
+__pycache__/
+error_logs_web_scrapping.log
+logs_web_scrapping.log
+myenv/
