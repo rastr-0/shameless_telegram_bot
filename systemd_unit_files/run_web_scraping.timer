@@ -8,4 +8,3 @@ Persistent=true
 [Install]
 WantedBy=timers.target
 
-# This file runs every 3 minutes .service file
