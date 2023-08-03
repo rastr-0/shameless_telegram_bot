@@ -1,0 +1,14 @@
+[Unit]
+Description=My Web Scraping Service
+After=network.target
+
+[Service]
+Type=simple
+User=your_user
+WorkingDirectory=your_path_to_directory_with_file
+ExecStart=your_path_to_python3 your_path_to_file
+StandardOutput=file://your_path/logs_web_scrapping.log
+StandardError=file://your_path/error_logs_web_scrapping.log
+
+[Install]
+WantedBy=multi-user.target

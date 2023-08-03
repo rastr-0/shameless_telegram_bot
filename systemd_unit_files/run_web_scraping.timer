@@ -1,0 +1,11 @@
+[Unit]
+Description=Run My Web Scraping Service every 3 minutes
+
+[Timer]
+OnCalendar=*:0/3
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
+# This file runs every 3 minutes .service file
