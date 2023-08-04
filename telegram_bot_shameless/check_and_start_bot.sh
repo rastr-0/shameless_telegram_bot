@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BOT_COMMAND="python3 main.py"
-LOG_FILE="/root/shameless_telegram_bot/telegram_bot_shameless/bash_logs.log"
+LOG_FILE="path_to_directory/bash_logs.log"
 
 pgrep -p "$BOT_COMMAND" > /dev/null
 
