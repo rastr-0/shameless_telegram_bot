@@ -1,0 +1,12 @@
+[Unit]
+Description=My Telegram Bot Service
+After=network.target
+
+[Service]
+Type=simple
+User=your_username
+WorkingDirectory=path_to_directory
+ExecStart=/usr/bin/bash path_to_directory/check_and_start_bot.sh
+
+[Install]
+WantedBy=multi-user.target

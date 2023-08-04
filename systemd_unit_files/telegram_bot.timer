@@ -1,0 +1,11 @@
+[Unit]
+Description=Run My Telegram Bot every 6 minutes
+
+[Timer]
+OnCalendar=*:0/6
+Persistent=true
+
+[Install]
+WantedBy=timers.target
+
+# This file runs .service unit file, which runs bash script for checking if bot is running. In case of internet troubles bot will restart automatically

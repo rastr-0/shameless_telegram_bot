@@ -6,3 +6,4 @@ bot/__pycache__/
 bot/nohup.out 
 bot/handlers/__pycache__/
 bot/handlers/nohup.out
+bash_logs.log
